@@ -28,6 +28,7 @@
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "@vue/eslint-config-typescript": "^9.1.0",
+    "commitizen": "^4.2.5",
     "cz": "^1.8.2",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
@@ -41,7 +42,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz"
+      "path": "cz-conventional-changelog"
     }
   }
 }
